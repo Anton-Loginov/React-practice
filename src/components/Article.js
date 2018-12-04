@@ -9,7 +9,7 @@ class Article extends Component {
     if (!isOpen) return null;
     return (
       <section className="section">
-        {article.text} !!!
+        {article.text}
         <CommentList comments={article.comments} />
       </section>)
   }

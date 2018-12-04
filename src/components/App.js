@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
-import Header from './components/Header';
-import {articles} from "./fixtures";
-import ArticleList from "./components/ArticleList";
+import '../App.css';
+import Header from './Header';
+import {articles} from "../fixtures";
+import ArticleList from "./ArticleList";
 
 class App extends Component {
   render() {
